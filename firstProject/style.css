@@ -1,0 +1,46 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-color: #a5b3c7;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+.container{
+    text-align:center;
+}
+
+.container button{
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight:bold;
+    display:block;
+    margin-top:20px;
+    margin-left: 3em;
+
+}
+#increment-btn{
+    color:darkred;
+}
+#save-btn{
+    color:blueviolet;
+    
+}
+.container p{
+    margin: 22px;
+    font-weight: bolder;
+}
