@@ -4,4 +4,15 @@
 // console.log(name);
 
 
-console.log(typeof(typeof(2)))
+
+let num = [1,3,6,8];
+
+
+let dec =0;
+
+for(let i=0; i<3; i++){
+    dec += num[i];
+}
+
+
+console.log(dec);
