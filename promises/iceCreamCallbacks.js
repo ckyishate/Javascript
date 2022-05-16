@@ -6,11 +6,11 @@ let stocks = {
 
 }
 
-let order = (fruit_name, call_prducttion)=>{
+let order = (fruit_name, call_producttion)=>{
     
     setTimeout(()=>{
         console.log(`${stocks.fruits[fruit_name]} has been selected`);
-        call_prducttion();
+        call_producttion();
     },2000);
     
 

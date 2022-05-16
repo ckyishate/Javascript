@@ -9,13 +9,18 @@ app.set('view engine', 'ejs');
 //listen for requests
 app.listen(3000);
 
+
+//middleware and static files
+
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
 
     const blogs=[
-        // {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'},
-        // {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'},
-        // {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'},
-        // {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'}
+        {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'},
+        {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'},
+        {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'},
+        {title: 'Yoshi fins eggs', snippet:'todayy uis the day the supervisor is coming'}
     ]
 
     // res.sendFile('./views/index.html', {root: __dirname});

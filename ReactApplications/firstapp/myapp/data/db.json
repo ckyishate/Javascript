@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "body": "Why do we use it?\n It is a long established fact that a render will be dstracted",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Opening party",
+      "body": "Why do we use it?\n It is a long established fact that a render will be dstracted",
+      "author": "Yusuf",
+      "id": 2
+    },
+    {
+      "title": "hello world",
+      "body": "This is it please, can you please help me out",
+      "author": "yoshi",
+      "id": 3
+    },
+    {
+      "title": "gkjfhoiwghjvbnrio",
+      "body": "ojgiowrjwhgjgquip34itpq3ogjgnuiwhiu",
+      "author": "mario",
+      "id": 4
+    },
+    {
+      "title": "klvjksairuhagoigrjpvaihgr",
+      "body": "jhfuiahpihjvuioawihnvjhaiiafnjviuafhiahijihg\nvjiafhreiufabnjkairaoijjaehgiruhagoifbviauf",
+      "author": "yoshi",
+      "id": 5
+    },
+    {
+      "title": "jdjdjjdjdjdkd",
+      "body": "ndjdjdjd",
+      "author": "mario",
+      "id": 6
+    }
+  ]
+}
