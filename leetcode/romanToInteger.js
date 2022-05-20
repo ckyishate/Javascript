@@ -10,16 +10,27 @@
     sArray.forEach((e)=>{
         if(e in dic) numArray.push(dic[e]);
     });
-    
-    let decimalNumber=0;
-    for(let i= numArray.length-1; i>=0; i--){
+
+
+   let decimalNumber=0;
+
+    let i=0;
+    while(i< numArray.length){
+        if(i=== numArray.length-1){
+            decimalNumber= decimalNumber+numArray[i];
+            
+            return decimalNumber;
+        }
+        else if(numArray[i]>=numArray[i+1])
+        {
+            decimalNumber = decimalNumber+numArray[i];
+            i+=1;
+        }else{
+            decimalNumber =  decimalNumber+(numArray[i+1]-numArray[i]);
+            i+=2;
+        }
         
-        if( decimalNumber > numArray[i]){
-            decimalNumber += numArray[i];
-        }else
-            decimalNumber -= numArray[i];
-        
-        console.log(decimalNumber)
+
     }
     return decimalNumber;
     
@@ -27,5 +38,5 @@
 
 
 
-console.log(romanToInt("III"));
+console.log(romanToInt("MCMXCIV"));
 
